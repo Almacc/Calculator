@@ -66,6 +66,6 @@
                 <version>3.3.2</version>
             </plugin>
         </plugins>
-        <finalName>devops-integration</finalName>
+        <finalName>dockerint</finalName>
     </build>
 </project>

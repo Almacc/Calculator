@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD target/devops-integration.war devops-integration.war
-ENTRYPOINT ["java", "-war","/devops-integration.war"]
+ADD target/dockerint.war dockerint.war
+ENTRYPOINT ["java", "-war","/dockerint.war"]
